@@ -1,0 +1,44 @@
+.product__images {
+}
+.product__images--add {
+  margin-right: 0.8rem;
+}
+.product__images--remove-all {
+}
+.product__images-container {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product__images-image-wrapper {
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+  margin-right: 0.8rem;
+}
+.product__images-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border: 1px solid #ddd;
+}
+.product__images-image:hover {
+  filter: blur(2px);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.image-item__btn-wrapper {
+}
+.product__images-update {
+}
+.product__images-delete {
+}
+
+.errorMessage {
+  color: #bf1650;
+}
+
+.errorMessage::before {
+  display: inline;
+  content: "⚠ ";
+}

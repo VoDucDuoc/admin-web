@@ -1,0 +1,20 @@
+.available-icon {
+  font-size: 1.2rem;
+}
+.available-icon--check {
+  color: green;
+}
+.available-icon--close {
+  color: red;
+}
+
+.label__color {
+  width: 72px;
+  height: 38px;
+  background: transparent;
+  border: 1px solid currentColor;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}

@@ -1,0 +1,52 @@
+.notify__wrapper {
+  position: relative;
+}
+.notify__icon {
+  color: white;
+}
+.notify__total {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: white;
+  border-radius: 999px;
+  padding: 1px 3px;
+  font-size: 0.7rem;
+  border: 1px solid #343a40;
+}
+
+.notify__board {
+  display: none;
+  position: absolute;
+  border-radius: 2px;
+  background-color: white;
+  width: 350px;
+  height: 400px;
+  overflow-y: auto;
+  box-shadow: 0 0 4px 4px rgba(52, 58, 64, 0.4);
+}
+
+.notify__list {
+  list-style-type: none;
+  padding: 0;
+}
+.notify__item {
+  background-color: rgba(92, 184, 92, 0.2);
+  padding: 10px;
+}
+.notify__item + .notify__item {
+  margin-top: 8px;
+}
+.notify__wrapper:hover .notify__board {
+  display: block;
+}
+
+.notify__link,
+.notify__link:hover {
+  text-decoration: none;
+  color: #343a40;
+}
+.notify__link {
+  display: block;
+  cursor: pointer;
+}

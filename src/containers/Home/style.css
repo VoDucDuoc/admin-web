@@ -1,0 +1,35 @@
+.statistic__number {
+  height: 6rem;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.statistic__chart {
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  padding: 0.8rem 0.4rem;
+}
+
+.statistic__number-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.8rem;
+}
+
+.statistic__number-title {
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+.statistic__number-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}

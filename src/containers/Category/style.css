@@ -1,0 +1,9 @@
+.available-icon {
+  font-size: 1.2rem;
+}
+.available-icon--check {
+  color: green;
+}
+.available-icon--close {
+  color: red;
+}
